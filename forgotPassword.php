@@ -46,12 +46,12 @@ if (isset($_REQUEST['username']) && isset($_REQUEST['email'])) {
         $trackURL = Vtiger_ShortURL_Helper::generateURL($options);
         // SalesPlatform.ru begin
         $content = 'Уважамаемый Пользователь,<br><br>
-                            Вы запросили смену пароля в системе SalesPlatform Vtiger CRM.<br>
+                            Вы запросили смену пароля в системе ООО "Евролок Проект".<br>
                             Для создания нового пароля, нажмите на <a target="_blank" href=' . $trackURL . '>ссылку</a>.
                             <br><br>
                             Запрос был сделан ' . date("Y-m-d H:i:s") . ' и будет актуален следующее 24 часа.<br><br>
 		            С наилучшими пожеланиями,<br>
-		            Команда SalesPlatform.<br>' ;
+		            Компания ООО "Евролок Проект"<br>' ;
         $mail = new PHPMailer();
 //        $content = 'Dear Customer,<br><br>
 //                            You recently requested a password reset for your VtigerCRM Open source Account.<br>
