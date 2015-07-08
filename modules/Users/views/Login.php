@@ -21,7 +21,7 @@ class Users_Login_View extends Vtiger_View_Controller {
 	function preProcess(Vtiger_Request $request, $display = true) {
 		$viewer = $this->getViewer($request);
                 // Salesplatform begin renamed pagetitle
-                $viewer->assign('PAGETITLE', 'SalesPlatform Vtiger CRM');
+                $viewer->assign('PAGETITLE', 'ООО "Евролок Проект"');
 		//$viewer->assign('PAGETITLE', $this->getPageTitle($request));
                 // Salesplatform end
 		$viewer->assign('SCRIPTS',$this->getHeaderScripts($request));
