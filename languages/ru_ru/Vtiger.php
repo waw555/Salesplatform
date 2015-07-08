@@ -8,8 +8,8 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	'APPTITLE'                     => 'SalesPlatform Vtiger CRM'                  , // TODO: Review
-	'POWEREDBY'                    => 'SalesPlatform Vtiger CRM'       , // TODO: Review
+	'APPTITLE'                     => 'ООО "Евролок Проект"'                  , // TODO: Review
+	'POWEREDBY'                    => 'ООО "Евролок Проект"'       , // TODO: Review
 	'LBL_READ_LICENSE'             => 'Прочитать лицензию', // KEY 5.x: LNK_READ_LICENSE
 	'LBL_PRIVACY_POLICY'           => 'Политика конфиденциальности', // KEY 5.x: LNK_PRIVACY_POLICY
 	'LBL_SELECT_ALL'               => 'Отметить все'     ,
@@ -486,7 +486,7 @@ $languageStrings = array(
 	'Email Opt Out'                => 'Не отправлять E-mail',
 	'Expected Close Date'          => 'Ожидаемая дата закрытия',
 	'Fax'                          => 'Факс'                    ,
-	'Last Name'                    => 'Фамилия'              ,
+	'Last Name'                    => 'ФИО'              ,
 	'First Name'                   => 'Имя'                      ,
 	'High'                         => 'Высокий'                        , // TODO: Review
 	'Low'                          => 'Низкий'                         , // TODO: Review
@@ -542,7 +542,7 @@ $languageStrings = array(
     'Open Tickets'                 => 'Открытые Заявки'                , // TODO: Review
     'LBL_SELECT_STATUS'            => 'Выбрать статус',
     'LBL_SELECT_PROGRESS'          => 'Выбрать прогресс',
-	'LBL_VTIGER_CRM_HONEST_OPEN_SOURCE' => 'vtiger CRM honest Open Source'        , // TODO: Review
+	'LBL_VTIGER_CRM_HONEST_OPEN_SOURCE' => ''        , // TODO: Review
 	'SINGLE_Accounts'              => 'Контрагент'        ,
 	'SINGLE_Contacts'              => 'Контакт'              ,
 	'SINGLE_Vendors'               => 'Поставщик'              ,
