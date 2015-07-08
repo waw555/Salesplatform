@@ -157,12 +157,7 @@
 														&nbsp;&nbsp;&nbsp;<a>Забыли пароль ?</a>
 													</div>
 												</div>
-												{* Retain this tracker to help us get usage details *}
-												<img src='//stats.salesplatform.ru/stats.php?uid={$APPUNIQUEKEY}&v={$CURRENT_VERSION}&type=U' alt='' title='' border=0 width='1px' height='1px'>
 											</form>
-											<div class="login-subscript">
-												<small> SalesPlatform Vtiger CRM {$CURRENT_VERSION}</small>
-											</div>
 										</div>
 										
 										<div class="login-box hide" id="forgotPasswordDiv">
