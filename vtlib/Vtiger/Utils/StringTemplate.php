@@ -1,13 +1,4 @@
 <?php
-/*+***********************************************************************************
- * The contents of this file are subject to the vtiger CRM Public License Version 1.0
- * ("License"); You may not use this file except in compliance with the License
- * The Original Code is:  vtiger CRM Open Source
- * The Initial Developer of the Original Code is vtiger.
- * Portions created by vtiger are Copyright (C) vtiger.
- * All Rights Reserved.
- *************************************************************************************/
-
 /**
  * Template class will enable you to replace a merge fields defined in the String
  * with values set dynamically.
@@ -90,14 +81,10 @@ class Vtiger_StringTemplate {
 				$matchstr_regex = $this->__formatAsRegex($matchstr);
 
 				$replacewith = $this->get($matchkey);
-                                // SalesPlatform.ru begin Replace with empty string
-				//if($replacewith) {
-                                // SalesPlatform.ru end
+
 					$instring = preg_replace(
 						"/$matchstr_regex/", $replacewith, $instring);
-                                // SalesPlatform.ru begin Replace with empty string
-				//}
-                                // SalesPlatform.ru end
+
 			}
 		}
 		return $instring;
