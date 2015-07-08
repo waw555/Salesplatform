@@ -15,6 +15,7 @@ $languageStrings = array(
 	'LBL_ACCOUNT_INFORMATION'      => 'Информация о Контрагенте', 
 	'LBL_SHOW_ACCOUNT_HIERARCHY'   => 'Иерархия Контрагента', 
 	'industry'                     => 'Отрасль'              , 
+	'LBL_ADDRESS_INFORMATION'      => 'Реквизиты'             , // TODO: Review
 	'Account Name'                 => 'Контрагент'        , 
 	'Account No'                   => 'Контрагент №'    , 
 	'Website'                      => 'Веб-сайт'             , 
