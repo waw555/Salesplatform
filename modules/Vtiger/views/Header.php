@@ -68,7 +68,7 @@ abstract class Vtiger_Header_View extends Vtiger_View_Controller {
 						'linktype' => 'HEADERLINK',
 						'linklabel' => 'LBL_DOCUMENTATION',
                                                 // SalesPlatform.ru begin Doc links fixed
-						'linkurl' => 'http://salesplatform.ru/wiki/index.php/SalesPlatform_vtiger_crm_620',
+						'linkurl' => 'http://crm.euro-lock.ru',
 						//'linkurl' => 'https://wiki.vtiger.com/vtiger6/index.php/Main_Page',
                                                 // SalesPlatform.ru end
 						'linkicon' => '',
@@ -88,7 +88,7 @@ abstract class Vtiger_Header_View extends Vtiger_View_Controller {
 						'linktype' => 'HEADERLINK',
 						'linklabel' => 'LBL_FEEDBACK',
                                                 // SalesPlatform.ru begin Doc links fixed
-						'linkurl' => 'http://community.salesplatform.ru/forums/',
+						'linkurl' => 'http://crm.euro-lock.ru',
 						'target' => '_blank',
 						//'linkurl' => "javascript:window.open('http://vtiger.com/products/crm/od-feedback/index.php?version=".$vtigerCurrentVersion.
 						//	"&email=".$userEmail."&uid=".$appUniqueKey.
